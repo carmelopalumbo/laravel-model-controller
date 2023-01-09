@@ -8,6 +8,13 @@ body{
 }
 
 header{
+    h1{
+        text-align: center;
+        padding: 30px 0;
+        font-weight: bolder;
+        color: $mark-text;
+        -webkit-text-stroke: 1px $main-text;
+    }
     ul{
         list-style: none;
         display: flex;
@@ -28,6 +35,24 @@ header{
                     color: $main-text;
                 }
             }
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+    .card{
+        border: 1px solid $mark-text;
+        transition: .4s all;
+        p{
+            color: $main-background;
+        }
+        h5{
+            color: $mark-text;
+            -webkit-text-stroke: 1px $main-background;
+        }
+        &:hover{
+            transform: scale(1.05);
         }
     }
 }

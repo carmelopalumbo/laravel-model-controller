@@ -1,6 +1,7 @@
 <header>
 
     <div class="container">
+        <h1>- SUPERMOVIES -</h1>
         <ul>
             <li>
                 <a href="{{ route('home') }}">HOME</a>
