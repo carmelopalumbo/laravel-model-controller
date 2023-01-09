@@ -10,7 +10,7 @@
     <!-- Styles -->
     @vite('resources/js/app.js')
 
-    <title>SUPERMOVIES</title>
+    <title>SUPERMOVIES | @yield('title')</title>
 </head>
 
 <body>

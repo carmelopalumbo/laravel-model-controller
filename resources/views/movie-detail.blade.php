@@ -23,3 +23,7 @@
         </div>
     </div>
 @endsection
+
+@section('title')
+    {{ $movie->original_title }}
+@endsection
