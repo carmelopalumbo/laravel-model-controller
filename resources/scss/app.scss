@@ -1,1 +1,37 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+@import 'partials/vars.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;900&display=swap');
+
+body{
+    background-color: $main-background;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        li{
+            padding: 0 25px;
+            a{
+                text-decoration: none;
+                font-weight: 600;
+                color: $main-text;
+                font-size: 1.5rem;
+                padding: 6px 10px;
+                transition: .4s all;
+                border-radius: 5px;
+                &:hover{
+                    background-color: $mark-text;
+                    color: $main-text;
+                }
+            }
+        }
+    }
+}
+
+h1{
+    color: $main-text;
+}
