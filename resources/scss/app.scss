@@ -57,6 +57,25 @@ a{
     }
 }
 
-h1{
-    color: $main-text;
+h2{
+    color: $mark-text;
+    font-weight: bold;
 }
+
+
+.detail{
+    .card{
+        border: 1px solid $mark-text;
+        transition: .4s all;
+        p{
+               color: $main-background;
+               font-size: 1.5rem;
+        }
+        h5{
+               color: $mark-text;
+               font-size: 2.5rem;
+               -webkit-text-stroke: 1px $main-background;
+           }
+   }
+}
+

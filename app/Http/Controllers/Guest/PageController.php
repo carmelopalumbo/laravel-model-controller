@@ -24,4 +24,11 @@ class PageController extends Controller
     {
         return view('contacts');
     }
+
+    public function movieDetail($id)
+    {
+        $movie = Movie::find($id);
+
+        return view('movie-detail', compact('movie'));
+    }
 }

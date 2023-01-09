@@ -1,5 +1,5 @@
 @extends('layouts.main')
 
 @section('content')
-    <h1>CONTACTS</h1>
+    <h2 class="text-center py-5">CONTACTS SECTION &nbsp; | &nbsp; WORK IN PROGRESS</h2>
 @endsection

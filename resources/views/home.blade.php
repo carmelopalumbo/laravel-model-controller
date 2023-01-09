@@ -5,7 +5,7 @@
         <div class="row">
             @foreach ($movies as $movie)
                 <div class="col-4 d-flex justify-content-center py-4">
-                    <a href="">
+                    <a href="{{ route('movieDetail', $movie->id) }}">
                         <div class="card" style="width: 18rem;">
                             <img src="{{ Vite::asset('resources/images/movielogo.webp') }}" class="card-img-top"
                                 alt="logo">
