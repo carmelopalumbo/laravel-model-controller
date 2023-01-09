@@ -79,3 +79,37 @@ h2{
    }
 }
 
+.error{
+    margin-top: 40px;
+    border-top: 2px solid $mark-text;
+    border-bottom: 2px solid $mark-text;
+    h3{
+        color: $mark-text;
+    }
+    a{
+        margin: 20px auto;
+        width: 120px;
+        background-color: $mark-text;
+        text-align: center;
+        padding: 10px;
+        display: block;
+        color: $main-text;
+        font-weight: lighter;
+        transition: .4s all;
+        border-radius: 2px;
+        &:hover{
+            background-color: lighten($mark-text, 10%);
+        }
+    }
+}
+
+footer{
+    border-top: .5px solid $mark-text;
+    margin-top: 30px;
+    h4{
+        text-align: center;
+        font-size: .8rem;
+        color: $mark-text;
+        padding: 20px 0;
+    }
+}
