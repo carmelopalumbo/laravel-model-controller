@@ -4,15 +4,16 @@
         <h1>- SUPERMOVIES -</h1>
         <ul>
             <li>
-                <a href="{{ route('home') }}">HOME</a>
+                <a class="{{ Route::currentRouteName() === 'home' ? 'active' : '' }}" href="{{ route('home') }}">HOME</a>
             </li>
 
             <li>
-                <a href="{{ route('shop') }}">SHOP</a>
+                <a class="{{ Route::currentRouteName() === 'shop' ? 'active' : '' }}" href="{{ route('shop') }}">SHOP</a>
             </li>
 
             <li>
-                <a href="{{ route('contacts') }}">CONTACTS</a>
+                <a class="{{ Route::currentRouteName() === 'contacts' ? 'active' : '' }}"
+                    href="{{ route('contacts') }}">CONTACTS</a>
             </li>
         </ul>
     </div>

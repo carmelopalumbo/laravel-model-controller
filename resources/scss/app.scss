@@ -39,6 +39,10 @@ header{
     }
 }
 
+.active{
+    color: $mark-text;
+}
+
 a{
     text-decoration: none;
     .card{
